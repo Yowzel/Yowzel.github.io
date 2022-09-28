@@ -1,0 +1,109 @@
+
+
+body {
+    background-color: white;
+}
+
+.ghibli {
+    display: block;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    font-family: 'Shadows Into Light', serif;
+    justify-content: center;
+    display: flex;
+
+}
+
+li {
+    list-style: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 180%;
+
+}
+
+.waiting {
+    margin-top: 3%;
+    width: 100%;
+}
+
+.credit {
+    margin-right: 1%;
+    display: flex;
+    justify-content: right;
+    font-family:'Shadows Into Light', serif;
+}
+
+.intro {
+    margin-top: 4%;
+    justify-content: center;
+    display: flex;
+    font-family:'Baloo 2', serif;
+    font-size: 20px;
+}
+
+.about {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.totoro {
+    margin-top: 5%;
+    width: 50%;
+}
+
+.about-text {
+    margin-left:30px;
+    margin-right: 30px;
+    font-family:'Baloo 2', serif;
+    font-size: 20px;
+}
+
+.navbar a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li a:hover {
+    background-color: #A7C5A6;
+  }
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+}
+
+.pic {
+    float: left;
+    width: 100px;
+    margin:auto;
+}
+
+.socials {
+    font-family: 'Shadows Into Light', serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pic img {
+    width: 100%;
+    display: block;
+}
